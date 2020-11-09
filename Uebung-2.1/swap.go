@@ -6,10 +6,9 @@ func swap(x, y int) (int, int) {
 	return y, x
 }
 
-func swap2 (x *int, y *int){
+func swap2(x *int, y *int){
 	*x, *y = *y, *x
 }
-
 
 func main() {
 	a,b := 1, 2
